@@ -1,2 +1,15 @@
 rvm use ruby-2.2.0
 rails new instagram-challenge
+
+
+features
+file created paperclip_features_spec.rb
+bin/rails g scaffold paperclip_image
+
+
+gem 'devise'
+
+rails generate devise:install
+
+followed instructions except the last one for developing views
+

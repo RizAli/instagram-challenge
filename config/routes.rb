@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  devise_for :users
+  resources :comments
+  resources :paperclip_images
+  root to: "paperclip_images#index"
+
+  # get 'images' => 'images#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
