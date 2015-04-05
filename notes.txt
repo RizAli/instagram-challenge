@@ -1,1 +1,2 @@
-notes
+rvm use ruby-2.2.0
+rails new instagram-challenge
